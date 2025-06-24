@@ -1,0 +1,168 @@
+# =====================================
+# OS/Editor-level temporary files
+# =====================================
+.DS_Store          # macOS system file
+Thumbs.db          # Windows system file
+desktop.ini        # Windows system file
+
+# Vim swap/backup/undo files
+*.swp
+*.swo
+*.swn
+*.un~
+*.bak
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# =====================================
+# Common IDE/Editor files
+# =====================================
+.idea/             # JetBrains IDEs
+.vscode/           # VS Code
+*.sublime-workspace
+*.code-workspace   # VS Code workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.pdb
+
+# =====================================
+# Environment variables
+# =====================================
+.env
+.env.local
+.env.*.local
+
+# =====================================
+# Log files
+# =====================================
+*.log
+
+# =====================================
+# Common build outputs (cross-language)
+# =====================================
+build/
+dist/
+target/
+vendor/
+*.o
+
+# =====================================
+# C/C++
+# =====================================
+*.so
+*.obj
+*.dll
+*.a
+*.d
+*.lib
+*.exe
+
+# =====================================
+# Go
+# =====================================
+*.test
+*.cgo1.go
+*.cgo2.c
+_test/
+# Do NOT ignore go.sum for reproducible builds
+
+# =====================================
+# Java
+# =====================================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+
+# =====================================
+# JavaScript / TypeScript
+# =====================================
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+*.tsbuildinfo
+coverage/             # Coverage reports (e.g., Jest)
+.sass-cache/
+*.map                 # Source map files
+# Do NOT ignore package-lock.json / yarn.lock / pnpm-lock.yaml for reproducible builds
+
+# =====================================
+# PHP
+# =====================================
+# Do NOT ignore composer.lock for reproducible builds
+
+# =====================================
+# Python
+# =====================================
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.pytest_cache/
+htmlcov/              # Coverage reports
+.coverage
+coverage.xml
+
+# =====================================
+# Rust
+# =====================================
+.cargo/
+# Cargo.lock is typically committed for reproducible builds (especially for binary projects)
+
+# =====================================
+# Shell
+# =====================================
+*.sh.swp
+
+# =====================================
+# Compressed archives & installers
+# =====================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.cab
+*.wim
+
+*.deb
+*.rpm
+*.pkg
+*.msi
+*.aab
+
+# =====================================
+# Disk images & virtualization files
+# =====================================
+*.iso
+*.img
+*.vmdk
+*.qcow2
+*.ova
+*.ovf
